@@ -1,0 +1,121 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>slide-show</title>
+
+    <link rel="stylesheet" href="css/mk-slideshow.css">
+</head>
+<body>
+    <div class="slide-show">
+        <div class="slides">
+            <div class="slide active">
+                <img src="image/image-1.jpg">
+
+                <div class="caption">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic officiis illum corrupti inventore? Cumque vero inventore earum deserunt ipsum, quam id obcaecati nostrum accusantium dignissimos consequatur aliquam unde voluptatum quidem.</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="image/image-2.png">
+
+                <div class="caption">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic officiis illum corrupti inventore? Cumque vero inventore earum deserunt ipsum, quam id obcaecati nostrum accusantium dignissimos consequatur aliquam unde voluptatum quidem.</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="image/image-3.jpg">
+
+                <div class="caption">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic officiis illum corrupti inventore? Cumque vero inventore earum deserunt ipsum, quam id obcaecati nostrum accusantium dignissimos consequatur aliquam unde voluptatum quidem.</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="image/image-4.jpg">
+
+                <div class="caption">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic officiis illum corrupti inventore? Cumque vero inventore earum deserunt ipsum, quam id obcaecati nostrum accusantium dignissimos consequatur aliquam unde voluptatum quidem.</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="image/image-5.png">
+
+                <div class="caption">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic officiis illum corrupti inventore? Cumque vero inventore earum deserunt ipsum, quam id obcaecati nostrum accusantium dignissimos consequatur aliquam unde voluptatum quidem.</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="image/image-6.jpg">
+
+                <div class="caption">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic officiis illum corrupti inventore? Cumque vero inventore earum deserunt ipsum, quam id obcaecati nostrum accusantium dignissimos consequatur aliquam unde voluptatum quidem.</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="image/image-7.jpg">
+
+                <div class="caption">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic officiis illum corrupti inventore? Cumque vero inventore earum deserunt ipsum, quam id obcaecati nostrum accusantium dignissimos consequatur aliquam unde voluptatum quidem.</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="image/image-8.jpg">
+
+                <div class="caption">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic officiis illum corrupti inventore? Cumque vero inventore earum deserunt ipsum, quam id obcaecati nostrum accusantium dignissimos consequatur aliquam unde voluptatum quidem.</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="image/image-9.jpg">
+
+                <div class="caption">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic officiis illum corrupti inventore? Cumque vero inventore earum deserunt ipsum, quam id obcaecati nostrum accusantium dignissimos consequatur aliquam unde voluptatum quidem.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/mk-slideshow.js"></script>
+    <script>
+        let slider = '.slide-show';
+        let option = {
+        height: '500px',
+        animation: 'slide',
+        autoPlay: true,
+        speed: 3000
+        };
+
+        let sShow = new slideshow(slider, option);
+        sShow.init()
+    </script>
+</body>
+</html>
